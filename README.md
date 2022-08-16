@@ -34,6 +34,10 @@ Tools:
 
 The model was able to accurately predict the correct fractures on our test data, albeit the test sample was relatively small.
 
+Here is the following model architecture 
+
+![model](model.PNG)
+
 **Discussion**
 
 Although the results of this exploration were not perfect, it does provide a quicker training method for data of this size, while also preserving storage space while training the model. In other tests working with training directly from the DICOM images, I was met with long training times, and more often than not maximizing the provided RAM in Kaggle Notebooks. 
