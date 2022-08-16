@@ -36,7 +36,7 @@ The model was able to accurately predict the correct fractures on our test data,
 
 Here is the following model architecture 
 
-![model](model.PNG)
+![model](model.png)
 
 **Discussion**
 
