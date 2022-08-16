@@ -14,6 +14,8 @@ The Data Collection , Model creation and proccessing are all done via Kaggle Not
 
 The supplied data set gives us 2019 unique cases of CT scans of the Cervical Spine segment, and DICOM imagery for each case. Each case has a unique identifier which corresponds to the supplied csv file which supplies our main features for each case. There are 9 features total, our Unique Instance ID, patient overall , a binary column where 1 signifies that the patient has at least one fracture , and 0 indicates none. the follwoing 7 features are also binary columns in similar vein to the patient_overall , the difference being that they detail specific parts of the Cervical Spine that are fractured (C1-C7)
 
+![Data Distribution](dataperc.png)
+
 First, the DICOM images were proccesed utilizing the functional meta data stored in each. We are able to segment the DICOM images in each instance that contain cervical spine imagery, and combine them into 9 different JPEG images per instance. Having multiple instances per case gives us more data to train off of that differ slightly without having to do further preprocessing , such as tilting and other alterations, although these still may be necessary.
 
 This process is repeated for our training data in order to provide an accurate test.
