@@ -44,7 +44,7 @@ Although the results of this exploration were not perfect, it does provide a qui
 
 Exploring if we can generate more than 9 images should be considered, to give further training points. As well as exploring using Google Cloud AutoAI to provide more computational power.
 
-Wont test well on a hidden data set, due to being trained on a different looking data, May train on smaller portion and split some more in to test to truly test the probability.
+The model as it currently stands wont test well on a hidden data set, due to being trained on the compiled DICOM images as apposed to the raw images provided.
 
 **Summary**
 
